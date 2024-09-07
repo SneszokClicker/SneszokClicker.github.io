@@ -3,7 +3,7 @@ import Database from './database.js';
 let tg = window.Telegram.WebApp;
 tg.expand();
 
-const db = new Database('hamster.db');
+const db = new Database('./hamster.db');
 db.initTable();
 db.addUser(tg.initData.user.id);
 
