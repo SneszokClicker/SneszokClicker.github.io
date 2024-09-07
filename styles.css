@@ -1,0 +1,42 @@
+.circle-image{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 95vw;
+    height: 95vw;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+.circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+.score{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
